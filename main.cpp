@@ -6,18 +6,18 @@ class Character {
     private:
         string name;
         int health;
-        int AttackPower;
+        int attackPower;
     public:
         Character(string n, int h, int ap) {
             name = n;
             health = h;
-            AttackPower = ap;
+            attackPower = ap;
         }
 
         void displayStatus() {
             cout <<  "-" + name +  "-" << endl;
             cout << "Health:" << health  << endl;
-            cout << "Attack Power:" << AttackPower << endl;
+            cout << "Attack Power:" << attackPower << endl;
             cout << endl;
         }
 
@@ -32,7 +32,7 @@ class Character {
 
         void attack(Character& target) {
             cout << this->name << "‚Í" << target.name << "‚ÉUŒ‚‚µ‚½I" << endl;
-            target.takeDamage(this->AttackPower);
+            target.takeDamage(this->attackPower);
         }
 };
 
