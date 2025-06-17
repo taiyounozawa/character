@@ -1,8 +1,8 @@
 <div id="top"></div>
 // TEST README
-<h1>
-キャラクター戦闘シミュレーション
-</h1>
+
+# キャラクター戦闘シミュレーション
+
 
 
 ## 使用技術一覧
@@ -12,8 +12,6 @@
 <p style="display: inline">
  <img src="https://img.shields.io/badge/-Cplusplus-00599C.svg?logo=cplusplus&style=plastic">
 </p>
-<br>
-
 
 ## 概要
 <p>
