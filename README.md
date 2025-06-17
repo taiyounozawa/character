@@ -55,18 +55,10 @@ React、DRF、Terraform を勉強する際に使用できるテンプレート
 
 <!-- 言語、フレームワーク、ミドルウェア、インフラの一覧とバージョンを記載 -->
 
-| 言語・フレームワーク  | バージョン |
+| 言語・フレームワーク    |  バージョン |
 | --------------------- | ---------- |
-| Python                | 3.11.4     |
-| Django                | 4.2.1      |
-| Django Rest Framework | 3.14.0     |
-| MySQL                 | 8.0        |
-| Node.js               | 16.17.0    |
-| React                 | 18.2.0     |
-| Next.js               | 13.4.6     |
-| Terraform             | 1.3.6      |
+| C++                   |    8.1.0   |
 
-その他のパッケージのバージョンは pyproject.toml と package.json を参照してください
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
