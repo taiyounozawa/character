@@ -33,18 +33,24 @@ Characterクラスを定義し、2体のキャラクター（ヒーローとモ�
 <br>
 
 ## 実行方法
-コンパイル: C++コンパイラ（例: g++）を使用してソースコードをコンパイルします。
+<ol>
+<li><b>コンパイル</b>: C++コンパイラ（例: g++）を使用してソースコードをコンパイルします。</li><br>
 
-Bash
+```
 g++ main.cpp -o battle_simulation
-実行: コンパイルして生成された実行可能ファイルを実行します。
+```
+<br>
 
-Bash
+<li><b>実行</b>: コンパイルして生成された実行可能ファイルを実行します。</li><br>
+
 ```
 ./battle_simulation
 ```
+</ol>
+<br>
 
-実行結果の例<br>
+<b>実行結果の例</b><br>
+```
 -hero-
 Health:100
 Attack Power:20
@@ -63,3 +69,4 @@ Attack Power:20
 -Boss-
 Health:980
 Attack Power:10
+```
